@@ -15,6 +15,11 @@ class ManagerPage:
         """Переход на страницу добавления клиента."""
         self.driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/addCust")
 
+    def go_to_customer_list(self):
+        """Переход на страницу со списком клиентов и ожидание загрузки таблицы."""
+        self.driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list")
+        self.wait_for_customers_table()
+
     def click_customers(self):
         """Клик по кнопке 'Customers' для перехода к таблице клиентов."""
         customers_button = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Customers')]")))
@@ -34,3 +39,8 @@ class ManagerPage:
         first_name_header = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'First Name')]")))
         assert first_name_header.is_displayed(), "Header 'First Name' is not displayed"
         first_name_header.click()
+
+    def is_customer_present(self, first_name):
+        """Проверка, присутствует ли клиент с данным именем в таблице."""
+        self.wait_for_customers_table()  # Ожидание загрузки таблицы перед проверкой
+        return self.find_customer_by_first_name(first_name)
