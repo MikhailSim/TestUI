@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f80e4b1-48f6-4be2-9804-9d161c8a61d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SDET1/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDET1/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDET1/tests/test_add_customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDET1/tests/test_delete_customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDET1/tests/test_sort_customers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST_CASES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_add_customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_delete_customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_sort_customers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/customer_utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mBvpPJYkaueG6higZDi6rlLIHa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_add_customer.py.executor": "Run",
+    "Python tests.Python tests in test_delete_customer.py.executor": "Run",
+    "Python tests.Python tests in test_sort_customers.py.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f80e4b1-48f6-4be2-9804-9d161c8a61d6" name="Changes" comment="" />
+      <created>1726562966375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726562966375</updated>
+    </task>
+    <servers />
+  </component>
+</project>
